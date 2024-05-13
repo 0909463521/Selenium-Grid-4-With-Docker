@@ -1,0 +1,4 @@
+Go to here for downloading image chrome version and replace it into file config.toml: https://github.com/SeleniumHQ/docker-selenium/releases
+when you call the browserVersion , you should add .0 at the end of string
+example:
+options.set_capability("browserVersion","124.0") -> 124.0
